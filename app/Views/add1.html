@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=8" >
+  
+  <title>Peexsell - Commande</title>
+
+  <link rel="stylesheet" type="text/css" href="./ui/css/bootstrap.css" />
+  <link rel="stylesheet" media="screen" href="./ui/css/style.css" />
+  <script type="text/javascript" src="./ui/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="./ui/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="./ui/js/cycle.js"></script>
+  <script type="text/javascript" src="./ui/js/si.files.js"></script>
+</head>
+<body>
+	<form action="" method="POST" enctype="multipart/form-data">
+		<fieldset>
+			<fieldset>
+				<input type="text" name="name" placeholder="name"/>
+				<input type="text" name="category_id" placeholder="category"/>
+				<input type="text" name="price" placeholder="price"/>	
+			</fieldset>
+		
+			<fieldset class="images">
+				
+				<img height="100" src="public/images/" />
+				
+				<input type="file" name="picture[]" />
+ 
+			</fieldset>
+			<input type="submit" value="save"/>
+ 		</fieldset>
+	</form>
+</body>
+</html>
